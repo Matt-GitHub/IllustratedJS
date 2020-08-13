@@ -1,0 +1,138 @@
+.introText {
+  font-size: 4rem;
+  text-align: center;
+  color: rgb(44, 53, 59);
+  margin: 3% 0%;
+}
+
+.introColor {
+  color: #1e6ae3;
+}
+
+.introCheckoutContentContainer {
+  display: flex;
+  align-items: center;
+}
+
+.introCheckoutContent {
+  font-size: 1.9rem;
+  color: rgb(44, 53, 59);
+  margin-left: 3%;
+  line-height: 2.5;
+}
+.introTextList {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  margin: 0 auto;
+}
+.intro1 {
+  width: 75%;
+}
+.intro2 {
+  width: 75%;
+  margin-left: 28%;
+}
+
+.introButtons {
+  display: flex;
+  width: 63%;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+#introPurchase {
+  font-size: 2.2rem;
+  width: 350px;
+  margin-top: 4%;
+}
+
+#introLearn {
+  font-size: 2.2rem;
+  width: 350px;
+  margin-top: 4%;
+  background: none;
+  color: rgb(44, 53, 59);
+  border: 2px solid rgb(44, 53, 59);
+  box-shadow: none;
+}
+
+#introLearn:hover {
+  cursor: pointer;
+  transition: 0.1s;
+  color: white;
+  background: linear-gradient(
+    90deg,
+    rgba(30, 106, 227, 1) 0%,
+    rgb(0, 140, 255) 100%
+  );
+}
+/* .introMedia {
+  display: flex;
+  width: 77%;
+  margin: 8% auto;
+  justify-content: space-between;
+}
+
+.media {
+  color: rgb(44, 53, 59);
+  width: 30%;
+  padding-bottom: 20px;
+}
+
+.media:hover {
+  background-color: rgb(249, 250, 250);
+  box-shadow: 0 5px 2px -2px gray;
+}
+
+.mediaTitle {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.mediaDescription {
+  width: 85%;
+  font-size: 1.2rem;
+  text-align: left;
+  margin: 0 auto;
+} */
+
+/* .introCheckout {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-around;
+} */
+
+/* .introCheckout {
+  border: 3px solid yellow;
+  display: flex;
+  flex-direction: row;
+}
+
+.intro1 {
+  width: 100%;
+  border: 3px solid green;
+}
+
+.intro2 {
+  width: 100%;
+  border: 3px solid blue;
+}
+.intoCheckoutTitle {
+  font-size: 3rem;
+  color: rgb(44, 53, 59);
+  /* width: 60%; */
+/* } */
+
+/* .introCheckoutContent {
+  font-size: 1.75rem;
+  color: rgb(44, 53, 59);
+  margin-left: 2%;
+}
+
+.introCheckoutContentContainer {
+  display: flex;
+  align-items: center;
+} */

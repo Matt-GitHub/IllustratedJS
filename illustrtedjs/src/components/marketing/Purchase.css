@@ -1,0 +1,93 @@
+.planContainer {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+.plan {
+  border: 0px solid black;
+  border-radius: 20px;
+  width: 30%;
+  background-color: rgb(200, 200, 200, 0.2);
+  box-shadow: 0 2.25px 2px -2px gray;
+  display: table;
+  text-align: center;
+}
+
+.plan:hover {
+  background-color: rgb(249, 250, 250);
+  box-shadow: 0 5px 2px -2px gray;
+}
+
+.planName {
+  color: rgb(44, 53, 59);
+  font-size: 2.3rem;
+  text-align: center;
+}
+
+.planHeader {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 3%;
+  color: rgb(44, 53, 59);
+}
+
+.planPrice {
+  text-align: center;
+  /* display: flex; */
+  align-items: center;
+  font-size: 1.5rem;
+  justify-content: center;
+  margin: 0 auto;
+  color: #1e6ae3;
+  padding-bottom: 4%;
+}
+
+.planBig {
+  font-size: 3rem;
+}
+
+.planCurrency {
+  font-size: 2rem;
+}
+
+.planDescriptionContainer {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  font-weight: 450;
+  text-align: left !important;
+}
+
+ul {
+  text-align: left;
+  padding-left: 0px;
+}
+
+li {
+  list-style: none;
+  line-height: 2.2;
+  color: rgb(44, 53, 59);
+}
+
+.signup {
+  padding: 2%;
+  display: table-cell;
+  margin: 2% auto;
+  text-align: center;
+  vertical-align: baseline;
+  justify-content: center;
+  width: 30%;
+  border: 0px solid black;
+  padding: 12px 30px;
+  border-radius: 50px;
+  background: linear-gradient(
+    90deg,
+    rgba(30, 106, 227, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: white;
+  box-shadow: 0 4px 2px -2px gray;
+  margin-bottom: 5%;
+}

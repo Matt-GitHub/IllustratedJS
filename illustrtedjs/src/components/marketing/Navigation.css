@@ -1,0 +1,28 @@
+.navigation {
+  display: flex;
+  width: 78%;
+  justify-content: space-around;
+  margin: 0 auto;
+  align-items: center;
+  /* align-content: center; */
+}
+.navigationLogo {
+  width: 50%;
+  font-size: 3rem;
+}
+.navigationLinks {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.navLink {
+  list-style: none;
+  color: black;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.navLinkActive {
+  color: #1e6ae3;
+}
