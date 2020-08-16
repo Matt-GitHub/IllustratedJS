@@ -1,6 +1,6 @@
 import React from 'react';
-import { Route, Switch } from 'react-router-dom';
-import DataStructures from '../Courses/Data Structures/DataStructures';
+import { Route, Switch, Redirect } from 'react-router-dom';
+import DataStructures from './Data Structures/DataStructures';
 import Courses from './Courses';
 const CourseRoutes = () => {
   return (

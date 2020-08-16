@@ -26,7 +26,7 @@ const Purchase = () => {
                 those who don't want a big commitment.
               </span>
               <ul>
-                <li>
+                <li className="planList">
                   <span role="img" aria-label="trophy emoji">
                     ⭐
                   </span>{' '}
@@ -53,19 +53,19 @@ const Purchase = () => {
               bootcamp and wanting to take a deep dive for interview prep.
             </span>
             <ul>
-              <li>
+              <li className="planList">
                 <span role="img" aria-label="trophy emoji">
                   ⭐
                 </span>{' '}
                 Access to all content
               </li>
-              <li>
+              <li className="planList">
                 <span role="img" aria-label="trophy emoji">
                   ⭐
                 </span>{' '}
                 Free upgrades to new content
               </li>
-              <li>
+              <li className="planList">
                 <span role="img" aria-label="trophy emoji">
                   ⭐
                 </span>{' '}
@@ -90,25 +90,25 @@ const Purchase = () => {
               opportunity comes!
             </span>
             <ul>
-              <li>
+              <li className="planList">
                 <span role="img" aria-label="trophy emoji">
                   ⭐
                 </span>{' '}
                 Access to all content
               </li>
-              <li>
+              <li className="planList">
                 <span role="img" aria-label="trophy emoji">
                   ⭐
                 </span>{' '}
                 Free upgrades to new content
               </li>
-              <li>
+              <li className="planList">
                 <span role="img" aria-label="trophy emoji">
                   ⭐
                 </span>{' '}
                 Invite to discord community
               </li>
-              <li>
+              <li className="planList">
                 <span role="img" aria-label="trophy emoji">
                   ⭐
                 </span>{' '}

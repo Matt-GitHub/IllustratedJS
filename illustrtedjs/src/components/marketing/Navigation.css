@@ -9,11 +9,13 @@
 .navigationLogo {
   width: 50%;
   font-size: 3rem;
+  color: rgb(0, 140, 255);
 }
 .navigationLinks {
   display: flex;
   width: 50%;
   justify-content: space-between;
+  align-items: center;
 }
 
 .navLink {

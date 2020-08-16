@@ -1,0 +1,35 @@
+.contentNavigation {
+  width: 15%;
+  margin-left: 12%;
+  position: fixed;
+  color: rgb(44, 53, 59);
+}
+
+.contentNavigation.li {
+  list-style-type: none;
+  color: rgb(44, 53, 59);
+}
+
+.contentLink {
+  font-size: 1.8rem;
+  line-height: 2;
+  text-decoration: none;
+  color: rgb(44, 53, 59);
+}
+
+.contentActive {
+  border-bottom: 3px solid rgb(0, 140, 255);
+}
+
+.contentItem {
+  list-style: none;
+}
+
+.content {
+  font-size: 1.95rem;
+  font-weight: 550;
+  line-height: 1.4 !important;
+  font-family: 'monsal-gothic', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', sans-serif;
+}

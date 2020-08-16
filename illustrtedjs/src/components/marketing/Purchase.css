@@ -63,9 +63,10 @@
 ul {
   text-align: left;
   padding-left: 0px;
+  list-style: none;
 }
 
-li {
+.planList {
   list-style: none;
   line-height: 2.2;
   color: rgb(44, 53, 59);

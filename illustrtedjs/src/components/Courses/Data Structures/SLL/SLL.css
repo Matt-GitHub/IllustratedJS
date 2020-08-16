@@ -1,0 +1,28 @@
+.contentContainer {
+  display: flex;
+  /* align-content: center;
+  align-items: flex-start; */
+  width: 100%;
+}
+
+.main {
+  max-width: 50%;
+  width: 50%;
+  margin-left: 30%;
+}
+
+#mainContentId {
+  max-width: 50%;
+  width: 50%;
+  margin-left: 30%;
+}
+
+.subTitle {
+  color: rgb(0, 140, 255);
+  font-size: 2.5rem;
+  margin-top: 2%;
+}
+
+.contentCode {
+  margin-bottom: 10%;
+}
